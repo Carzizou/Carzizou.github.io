@@ -1,0 +1,159 @@
+body{
+	width: 990px;
+	margin: auto;
+	background-image: url("fondoazul.png");
+	background-repeat: repeat;
+	font-family: Arial,Verdana,Sans Serif;
+	background-size: cover; 
+}
+header{
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+.nombre{
+font-family:Arial;
+font-size:300%;
+float:right;
+width:30%;
+height:120%;
+text-align:center;
+color:#739c63;
+}
+nav ul li a{
+	border:3px solid #502f1b;
+	background-color: #e97245;
+	border-radius:10px;
+}
+nav ul li a:hover{
+	background-color:#e68888;
+}
+#datos{
+	font-family: Arial;
+	list-style-type: none;
+	margin-left: 30px;
+	position: relative;
+	left:50px;
+	color:#330000;
+	font-size: 120%;
+	text-align: left;
+	margin-left:20px;
+	padding: 10px;
+}
+nav{
+	float: left;
+	width: 97.9%;
+	height: 30px;
+	padding: 0.5em;
+	background-repeat: repeat-x;
+	margin-left: auto;
+	margin-top:-5px;
+	background-color: #2711ee;
+}
+aside{
+	float: right;
+	width: 245px;
+	margin-right: 5px;
+	background-image: url("fondo.gif");
+	background-repeat: repeat;
+}
+#yo,#carta{
+	float: left;
+	width: 740px;
+	height: auto;
+	clear: none;
+	background-image: url(fondo.gif);
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+nav ul{
+	list-style-type: none;
+	margin: auto;
+	display: block;
+	padding: 3px;	
+}
+nav ul li{
+	display: inline-block;
+	font-family: Arial;
+	font-size: 20px;
+	margin-left: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 20px
+	color:#Dc8e0e;
+}
+article h2{
+	background-color: #d2defb;
+	color:#600;
+	padding: 10px;
+}
+#inicio, #adicional #imagen{
+	background-image: url("fondo.gif");
+	background-repeat: repeat-x;
+	padding:5px;
+
+}
+h3{
+	font-size: 150%;
+	font-weight: bold;
+	background-image: url("fondo.gif");
+	padding: 10px;
+	text-align: center;
+}
+article img{
+	float: left;
+	margin:2px;
+
+}
+footer{
+	width: 985px;
+	border-top: 2px solid #00044d;
+	border-bottom: 2px solid #00044d;
+	background-color: #bfc0b8;
+	text-align: left;
+	bottom:0px;
+	clear: both;
+}
+input{
+	background-color: #ff6c6c;
+	font-family: Arial;
+	margin-left: 10px;
+}
+section{
+	width: 100%;
+}
+.carta{
+	color:#330000;
+	font-size: 150%;
+	text-align: justify;
+	margin-left:20px;
+	margin-right: 20px;
+	padding: 10px;
+
+}
+.carta:first-letter{
+	text-transform: capitalize;
+	font-size: 150%;
+}
+.lista{
+	list-style-type: none;
+	text-decoration: underline;
+	color:#1443cf;
+	text-align: left;
+}
+#adicional{
+	text-align: left;
+}
+#imagen{
+	float: right;
+	height: 383px;
+	image-rendering: auto;
+}
+.sepi{
+	float: right;
+	color:#3d42fe;
+}
+form{
+	text-align: center;
+}
